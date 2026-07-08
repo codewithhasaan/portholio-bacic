@@ -21,6 +21,17 @@ The objective of this project is to design and develop a simple, static personal
 - Contact Section: Email, phone number, and location for reachability.
 - Footer: Copyright notice.
 
+## Project Description
+This project is a static personal portfolio website built with HTML. It presents the student's professional background, technical skills, education, hobbies, and social/contact links in a clean, single-page, section-based layout with in-page navigation.
+
+## Features Added in Day 2
+- Hobbies Section– New section describing personal interests outside of coding, including cryptocurrency markets and trading strategies.
+- Social Links Section – New "Connect with Me" section with links to LinkedIn, GitHub, and Instagram profiles (opening in new tabs).
+- Semester Courses Section – New section listing current semester courses (DAA, Advance Database, Automata, Management System, Probability and Statistics, Expository Writing).
+- Expanded Education Details – Added current semester information to the Education section.
+- Updated Navigation Bar – Nav links expanded to include Hobbies, Social, and Semester Courses, alongside the original About Me, Skills, Education, and Contact links.
+- id-based Section Anchors – Sections now use " id " attributes (e.g., " id="aboutMe" ", " id="skills" ") so navigation links correctly jump to the right section.
+
 ## How to Run the Project
 
 1. Download or clone the project folder to your local machine.
