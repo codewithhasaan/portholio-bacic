@@ -36,12 +36,12 @@ This project is a static personal portfolio website built with HTML. It presents
 Student Registration Form
 
 ## Features Implemented
-Personal Information Section: It Collects full name, email, phone number, date of birth, CNIC, and gender (via radio buttons).
-Academic Information Section: It Collects university name, degree program (dropdown/select), current semester, CGPA, and skills (via checkboxes for Programming, Graphic Design, Communication, and DevOps).
-Account Information Section: It Collects username, password, and password confirmation.
+- Personal Information Section: It Collects full name, email, phone number, date of birth, CNIC, and gender (via radio buttons).
+- Academic Information Section: It Collects university name, degree program (dropdown/select), current semester, CGPA, and skills (via checkboxes for Programming, Graphic Design, Communication, and DevOps).
+- Account Information Section: It Collects username, password, and password confirmation.
 Additional Information Section: It Collects city, country, profile picture upload, and a short bio (via textarea).
-Form Validation: All fields are marked required, and appropriate input types (email, tel, date, number, password, file) are used to enable built-in browser validation.
-Form Controls: Includes a "Register" submit button and a "Clear Form" reset button(these Buttons are just demo not in working)
+- Form Validation: All fields are marked required, and appropriate input types (email, tel, date, number, password, file) are used to enable built-in browser validation.
+- Form Controls: Includes a "Register" submit button and a "Clear Form" reset button(these Buttons are just demo not in working)
 
 
 ## How to Run the Project
