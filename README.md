@@ -43,6 +43,22 @@ Additional Information Section: It Collects city, country, profile picture uploa
 - Form Validation: All fields are marked required, and appropriate input types (email, tel, date, number, password, file) are used to enable built-in browser validation.
 - Form Controls: Includes a "Register" submit button and a "Clear Form" reset button(these Buttons are just demo not in working)
 
+## Features Added in Day 4
+
+Project Description
+
+This project is a static, multi-page business website built with HTML for a fictional web development company, "RavTech Limited." It consists of four interlinked pages Home, About, Services, and Contact sharing a consistent header, navigation, and footer, and presents the company's offerings, team, and contact channels.
+
+Pages & Features Implemented
+
+
+-Home (index.html) : Hero introduction, a "Who We Are" company summary, and a Featured Services preview with a link through to the full Services page.
+-About (about.html) : Company overview, mission, and vision statements, plus a "Meet Our Team" section profiling four team members and their roles.
+-Services (services.html) : Detailed breakdown of five core service offerings (Website Design & Development, Web Application Development, UI/UX Design, Maintenance & Support, and Automation Solutions), each with a description and feature list.
+-Contact (contact.html) : Business address, email, and phone details via a semantic <address> element, plus a working contact form (name, email, subject, message) for direct inquiries.
+-Shared Header & Navigation : Consistent site title and navigation menu linking all four pages, present on every page.
+-Shared Footer : Copyright notice, contact email, and social media links (Facebook, Twitter, LinkedIn, Instagram) repeated across all pages.
+
 
 ## How to Run the Project
 
