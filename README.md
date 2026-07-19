@@ -50,47 +50,52 @@ Project Description
 This project is a static, multi-page business website built with HTML for a fictional web development company, "RavTech Limited." It consists of four interlinked pages Home, About, Services, and Contact sharing a consistent header, navigation, and footer, and presents the company's offerings, team, and contact channels.
 
 
-##Pages & Features Implemented
+## Pages & Features Implemented
 
 
 - Home (index.html) : Hero introduction, a "Who We Are" company summary, and a Featured Services preview with a link through to the full Services page.
+  
 - About (about.html) : Company overview, mission, and vision statements, plus a "Meet Our Team" section profiling four team members and their roles.
+  
 - Services (services.html) : Detailed breakdown of five core service offerings (Website Design & Development, Web Application Development, UI/UX Design, Maintenance & Support, and Automation Solutions), each with a description and feature list.
+  
 - Contact (contact.html) : Business address, email, and phone details via a semantic <address> element, plus a working contact form (name, email, subject, message) for direct inquiries.
+  
 - Shared Header & Navigation : Consistent site title and navigation menu linking all four pages, present on every page.
+  
 - Shared Footer : Copyright notice, contact email, and social media links (Facebook, Twitter, LinkedIn, Instagram) repeated across all pages.
 
 
-##Pages & Features Implemented
+## Pages & Features Implemented
 
 
--Home (index.html) : Hero section with heading, description, call-to-action button, and illustration image; a "Who We Are" summary; a Featured Services preview grid with "Learn More" links; and a "What Our Clients Say" testimonials section with three client quotes.
+- Home (index.html) : Hero section with heading, description, call-to-action button, and illustration image; a "Who We Are" summary; a Featured Services preview grid with "Learn More" links; and a "What Our Clients Say" testimonials section with three client quotes.
 
--About (about.html) : Company overview, Mission and Vision cards, and a "Meet Our Team" section with avatar images (via ui-avatars.com), roles, and bios for four team members.
+- About (about.html) : Company overview, Mission and Vision cards, and a "Meet Our Team" section with avatar images (via ui-avatars.com), roles, and bios for four team members.
 
--Services (services.html) : Five detailed service blocks (Website Design & Development, Web Application Development, UI/UX Design, Maintenance & Support, Automation Solutions), plus a new "Pricing Plans" section with three tiered pricing cards (Starter, Professional , highlighted as "Most Popular", and Enterprise).
+- Services (services.html) : Five detailed service blocks (Website Design & Development, Web Application Development, UI/UX Design, Maintenance & Support, Automation Solutions), plus a new "Pricing Plans" section with three tiered pricing cards (Starter, Professional , highlighted as "Most Popular", and Enterprise).
 
--Contact (contact.html) : Business address, email, and phone via a semantic <address> element, and a styled contact form (name, email, subject, message).
-
-
-New Additions in This Version
+- Contact (contact.html) : Business address, email, and phone via a semantic <address> element, and a styled contact form (name, email, subject, message).
 
 
--Custom Stylesheet (style.css) : A dedicated CSS file linked on every page, styling the layout, colors, cards, buttons, and pricing tables.
--Responsive Mobile Navigation : A hamburger-style toggle button that opens/closes the nav menu on smaller screens via JavaScript.
--Scroll Reveal Animations : Elements with the reveal class fade/slide into view as the user scrolls, powered by the Intersection Observer API.
--Back-to-Top Button : A floating link on every page that jumps back to the top of the site.
--Active Nav State : The current page's nav link is visually highlighted using an active class.
--Social Media Icons : Inline SVG icons (Facebook, Twitter/X, LinkedIn, Instagram) replacing plain text links in the footer.
--Team Avatars : Auto generated avatar images for each team member on the About page.
+## New Additions in This Version
 
 
-##Technologies Used
+- Custom Stylesheet (style.css) : A dedicated CSS file linked on every page, styling the layout, colors, cards, buttons, and pricing tables.
+- Responsive Mobile Navigation : A hamburger-style toggle button that opens/closes the nav menu on smaller screens via JavaScript.
+- Scroll Reveal Animations : Elements with the reveal class fade/slide into view as the user scrolls, powered by the Intersection Observer API.
+- Back-to-Top Button : A floating link on every page that jumps back to the top of the site.
+- Active Nav State : The current page's nav link is visually highlighted using an active class.
+- Social Media Icons : Inline SVG icons (Facebook, Twitter/X, LinkedIn, Instagram) replacing plain text links in the footer.
+- Team Avatars : Auto generated avatar images for each team member on the About page.
 
 
--HTML5
--CSS3
--JavaScript
+## Technologies Used
+
+
+- HTML5
+- CSS3
+- JavaScript
 
 
 ## How to Run the Project
