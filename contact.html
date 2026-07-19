@@ -2,55 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RavTech limited | Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>RavTech limited</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header id="top">
+        <div class="container">
+            <h1>RavTech <span>limited</span></h1>
+            <nav>
+                <ul id="siteNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
     </header>
 
-    <main>
+    <main class="container section contact-main">
 
-        <section>
+        <section class="text-center section-block">
             <h2>Contact Us</h2>
             <p>We would love to hear from you. Reach out using the information below or send us a message directly through the contact form.</p>
         </section>
 
-        <section>
+        <section class="card contact-info section-block">
             <h3>Contact Information</h3>
             <address>
-                Office Address: Arfa Kreem Tower, Model Town, Lahore, Pakistan<br>
-                Email: <a href="mailto:info@ravtechlimited.com">info@ravtechlimited.com</a><br>
-                Phone: <a href="tel:+924212345678">+92 42 1234 5678</a>
+                <p>Office Address: Arfa Kreem Tower, Model Town, Lahore, Pakistan</p>
+                <p>Email: <a href="mailto:info@ravtechlimited.com">info@ravtechlimited.com</a></p>
+                <p>Phone: <a href="tel:+924212345678">+92 42 1234 5678</a></p>
             </address>
         </section>
 
-        <section>
+        <section class="card reveal">
             <h3>Send Us a Message</h3>
             <form action="#" method="post">
 
-                <label for="name">Full Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
-                <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
-                <label for="subject">Subject:</label><br>
-                <input type="text" id="subject" name="subject"><br><br>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
 
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="6" cols="40" required></textarea><br><br>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
 
-                <button type="submit">Send Message</button>
+                <button type="submit" class="btn">Send Message</button>
 
             </form>
         </section>
@@ -58,16 +73,84 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 RavTech limited. All rights reserved.</p>
-        <p>Contact us: <a href="mailto:info@ravtechlimited.com">info@ravtechlimited.com</a></p>
-        <p>
-            Follow us:
-            <a href="https://facebook.com" target="_blank">Facebook</a> |
-            <a href="https://twitter.com" target="_blank">Twitter</a> |
-            <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
-            <a href="https://instagram.com" target="_blank">Instagram</a>
-        </p>
+        <div class="footer-inner">
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h4>RavTech <span style="color: var(--teal);">limited</span></h4>
+                    <p>Building digital experiences that help businesses grow online.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Details</h4>
+                    <p>Arfa Kreem Tower, Model Town, Lahore, Pakistan</p>
+                    <p><a href="mailto:info@ravtechlimited.com">info@ravtechlimited.com</a></p>
+                    <p><a href="tel:+924212345678">+92 42 1234 5678</a></p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.25-1.5 1.55-1.5H16.7V3.7C16.4 3.66 15.4 3.57 14.2 3.57c-2.4 0-4.05 1.47-4.05 4.17V10H7.4v3.1h2.75V21h3.35z"/></svg>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter / X">
+                            <svg viewBox="0 0 24 24"><path d="M18.9 3H21l-5.4 6.2L22 21h-5.9l-4.6-6-5.3 6H4l5.8-6.6L3.3 3h6l4.2 5.5L18.9 3zM17.9 19.3h1.6L7.4 4.6H5.7l12.2 14.7z"/></svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24"><path d="M6.94 5.5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0zM3.3 8.75h3.28V21H3.3V8.75zM9.3 8.75h3.14v1.68h.04c.44-.83 1.5-1.7 3.1-1.7 3.3 0 3.9 2.17 3.9 5V21h-3.28v-5.6c0-1.34-.03-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.97V21H9.3V8.75z"/></svg>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M12 8.4a3.6 3.6 0 1 0 0 7.2 3.6 3.6 0 0 0 0-7.2zm0 5.94a2.34 2.34 0 1 1 0-4.68 2.34 2.34 0 0 1 0 4.68zM16.9 3H7.1A4.1 4.1 0 0 0 3 7.1v9.8A4.1 4.1 0 0 0 7.1 21h9.8a4.1 4.1 0 0 0 4.1-4.1V7.1A4.1 4.1 0 0 0 16.9 3zm2.85 13.9a2.85 2.85 0 0 1-2.85 2.85H7.1a2.85 2.85 0 0 1-2.85-2.85V7.1A2.85 2.85 0 0 1 7.1 4.25h9.8a2.85 2.85 0 0 1 2.85 2.85v9.8zM17.4 6.3a.9.9 0 1 0 0 1.8.9.9 0 0 0 0-1.8z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer-bottom">&copy; 2026 RavTech limited. All rights reserved.</p>
+        </div>
     </footer>
+
+    <a href="#top" class="back-to-top" aria-label="Back to top">&uarr;</a>
+
+
+    <script>
+        // Mobile navigation toggle
+        const navToggle = document.getElementById("navToggle");
+        const siteNav = document.getElementById("siteNav");
+        if (navToggle && siteNav) {
+            navToggle.addEventListener("click", () => {
+                const isOpen = siteNav.classList.toggle("open");
+                navToggle.classList.toggle("active", isOpen);
+                navToggle.setAttribute("aria-expanded", isOpen);
+            });
+        }
+
+        // Scroll-triggered fade/slide-in animation
+        const revealEls = document.querySelectorAll(".reveal");
+        if ("IntersectionObserver" in window && revealEls.length) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("visible");
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+            revealEls.forEach((el) => observer.observe(el));
+        } else {
+            revealEls.forEach((el) => el.classList.add("visible"));
+        }
+    </script>
 
 </body>
 </html>
